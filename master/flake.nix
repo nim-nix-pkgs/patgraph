@@ -1,5 +1,5 @@
 {
-  description = ''Graph data structure library'';
+  description = ''graph data structure library'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-patgraph-master.flake = false;
   inputs.src-patgraph-master.owner = "planetis-m";
-  inputs.src-patgraph-master.ref   = "refs/heads/master";
+  inputs.src-patgraph-master.ref   = "master";
   inputs.src-patgraph-master.repo  = "patgraph";
   inputs.src-patgraph-master.type  = "github";
   
