@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-patgraph-master.flake = false;
+  inputs.src-patgraph-master.ref   = "refs/heads/master";
   inputs.src-patgraph-master.owner = "planetis-m";
-  inputs.src-patgraph-master.ref   = "master";
   inputs.src-patgraph-master.repo  = "patgraph";
   inputs.src-patgraph-master.type  = "github";
   
