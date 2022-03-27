@@ -11,6 +11,7 @@
   inputs.src-patgraph-master.ref   = "refs/heads/master";
   inputs.src-patgraph-master.owner = "planetis-m";
   inputs.src-patgraph-master.repo  = "patgraph";
+  inputs.src-patgraph-master.dir   = "";
   inputs.src-patgraph-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
