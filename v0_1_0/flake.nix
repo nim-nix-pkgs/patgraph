@@ -11,7 +11,6 @@
   inputs.src-patgraph-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-patgraph-v0_1_0.owner = "planetis-m";
   inputs.src-patgraph-v0_1_0.repo  = "patgraph";
-  inputs.src-patgraph-v0_1_0.dir   = "";
   inputs.src-patgraph-v0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
